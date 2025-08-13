@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cars</title>
+</head>
+<body>  
+    <div class="cars">
+        {
+            @foreach{
+                <div class="car"> 
+                    <h1 class="title">{car.Name}</h1>
+                    <img src={car.Image} alt="">
+                </div>
+            }
+        }
+    </div>
+</body> 
+</html>
